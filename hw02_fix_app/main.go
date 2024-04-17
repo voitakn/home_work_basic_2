@@ -9,8 +9,9 @@ import (
 
 func init() {
 	var path string = "data.json"
+	var bla int = 23
 
-	fmt.Printf("Enter data file path: ")
+	fmt.Printf("Enter data file path: ", bla)
 	fmt.Scanln(&path)
 
 	var err error
